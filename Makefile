@@ -2,8 +2,7 @@
 .SILENT: install validate execute generate classify parse
 
 install:
-	brew install ruby
-	brew install swi-prolog
+	brew install ruby swi-prolog
 	bundle install
 
 validate:
